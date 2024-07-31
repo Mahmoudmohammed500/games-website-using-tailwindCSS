@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Website</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- Font Awesome_Icons--> 
+    <link rel="stylesheet" href="../fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+
+<body class="text-gray-300 bg-gray-900 p-8  font-bodyfont h-auto">
+    <div class="main-container grid grid-cols-3">
+
+        <div class="navigation text-right mt-1 mr-5 sm:mr-6">
+            <div class="title text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-secondary-200 text-center mb-5">
+                   Web <span class="text-secondary-100">Games</span>
+            </div>
+            <div class="links ">
+                <div class="link flex justify-center items-center px-5 py-3 cursor-pointer border-l-2 bg-gray-500 bg-opacity-25 animation1">
+                    <div class="icon mr-3"><i class="fa-solid fa-house"></i></div>
+                    <div class="text text-gray-50">Home</div>
+                </div>
+
+                <div class="link flex justify-center items-center px-5 py-3 cursor-pointer hover:border-l-2 hover:bg-gray-500 hover:bg-opacity-25 animation1">
+                    <div class="icon ml-1 mr-4 "><i class="fa-solid fa-question"></i></div>
+                    <div class="text">About</div>
+                </div>
+
+                <div class="link flex justify-center items-center px-5 py-3 cursor-pointer hover:border-l-2 hover:bg-gray-500 hover:bg-opacity-25 animation1">
+                    <div class="icon ml-4 mr-3"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">Contact</div>
+                </div>
+            </div>
+        </div>
+
+        <main class="mainContent col-span-2">
+            <header class="flex justify-end md:justify-between items-center">
+                <div class="title hidden md:block">
+                    <div class="main-title text-4xl font-bold">Games</div>
+                    <div class="sub-title text-3xl font-semibold text-green-600">For Gamers</div>
+                </div>
+
+                <div class="user flex justify-end gap-5">
+                    <div class="login  font-medium text-primary btn hover:bg-primary hover:text-white animation1">Log in</div>
+                    <div class="signup font-medium text-primary btn hover:bg-primary hover:text-white animation1">Sign up</div>
+                </div>
+            </header>
+
+            <div class="games">
+                <section class="mt-7">
+                    <div class="SecTitle ">Latest Games</div>
+                    <div class="cards grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        <div class="card">
+                            <div class="image h-full w-full"><img class="h-full w-full object-cover"
+                                    src="../dist/images/assassins-creed-mirage.jpg"></div>
+                            <div class="title">
+                                <div class="main-title font-semibold">Assassin's Creed Mirage</div>
+                                <div class="sub-title">Developers: Ubisoft</div>
+                            </div>
+                            <div class="badge">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span>4.5 / 5</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image h-full w-full"><img class="h-full w-full object-cover"
+                                    src="../dist/images/assassins-creed-mirage.jpg"></div>
+                            <div class="title">
+                                <div class="main-title font-semibold">Assassin's Creed Mirage</div>
+                                <div class="sub-title">Developers: Ubisoft</div>
+                            </div>
+                            <div class="badge">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span>4.5 / 5</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image h-full w-full"><img class="h-full w-full object-cover"
+                                    src="../dist/images/assassins-creed-mirage.jpg"></div>
+                            <div class="title">
+                                <div class="main-title font-semibold">Assassin's Creed Mirage</div>
+                                <div class="sub-title">Developers: Ubisoft</div>
+                            </div>
+                            <div class="badge">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span>4.5 / 5</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="mt-7 mb-7">
+                    <div class="SecTitle">Most Popular</div>
+                    <!-- <div class="cards">
+                        <div class="card">
+                            <div class="image"></div>
+                            <div class="title">
+                                <div class="main-title"></div>
+                                <div class="sub-title"></div>
+                            </div>
+                        </div>
+                    </div> -->
+                </section>
+
+                <div class="load-more text-lg py-2 font-medium text-gray-900 bg-secondary-200 mb-9 flex justify-center cursor-pointer hover:text-white hover:text-xl animation1">
+                   <a href="#"> Load More</a>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <footer>
+        <div class="border-t-2 border-yellow-500 pt-5 text-3xl font-semibold text-secondary-100 text-center"> <span
+                class=" text-secondary-200">&copy;</span> &lt; MR Developer &gt;</div>
+    </footer>
+</body>
+
+</html>
